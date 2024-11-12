@@ -1,0 +1,8 @@
+storageClass:
+  name: nfs
+  defaultClass: false
+  provisionerName: cluster.local/nfs-server-provisioner
+  allowVolumeExpansion: true
+  reclaimPolicy: Delete
+  mountOptions:
+    - vers=3
